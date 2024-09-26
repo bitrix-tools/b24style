@@ -4,7 +4,7 @@
 	"author": "Bitrix",
 	
 	"license": "MIT",
-	"description": "Design UIKit tokens Bitrix24 for web application development",
+	"description": "Дизайн-токены Битрикс24 для разработки веб-приложений",
 	"keywords": [
 		"bitrix24",
 		"tailwindcss",
