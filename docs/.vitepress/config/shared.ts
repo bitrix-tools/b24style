@@ -31,7 +31,7 @@ export const shared = defineConfig({
 		['meta', { name: 'theme-color', content: '#5f67ee' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:locale', content: 'ru' }],
-		['meta', { property: 'og:title', content: '@bitrix24/b24style | Bitrix24 Visual Styles Created with Tailwind CSS' }],
+		['meta', { property: 'og:title', content: '@bitrix24/b24style | Стили Битрикс24 на основе Tailwind CSS' }],
 		['meta', { property: 'og:site_name', content: '@bitrix24/b24style' }],
 		['meta', { property: 'og:image', content: `${domain}${baseFolder}bitrix24_style.jpg` }],
 		['meta', { property: 'og:url', content: `${domain}${baseFolder}` }],
