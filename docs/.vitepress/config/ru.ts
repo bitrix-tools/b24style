@@ -51,8 +51,8 @@ function nav(): DefaultTheme.NavItem[] {
 			text: configParams.version,
 			items: [
 				{
-					text: 'Изменения',
-					link: `${configParams.github}/blob/main/CHANGELOG.md`
+					text: 'Changelog',
+					link: `https://github.com/bitrix24/b24style/blob/main/CHANGELOG.md`
 				},
 				... configParams.relative
 			]
