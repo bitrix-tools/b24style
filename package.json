@@ -47,7 +47,7 @@
 	"dependencies": {
 		"@tailwindcss/forms": "^0.5.7",
 		"tailwindcss": "^3.4.12",
-		"@bitrix24/b24style": "^0.1.1"
+		"@bitrix24/b24style": "^0.1.2"
 	},
 	"devDependencies": {
 		"@whyframe/core": "^0.1.11",

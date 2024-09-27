@@ -14,13 +14,13 @@ export const ru = defineConfig({
 		},
 		
 		editLink: {
-			pattern: 'https://github.com/bitrix24/b24style/edit/main/docs/:path',
+			pattern: 'https://github.com/bitrix-tools/b24style/edit/main/docs/:path',
 			text: 'Редактировать страницу'
 		},
 		
 		footer: {
 			message: 'Опубликовано под лицензией MIT.',
-			copyright: 'Copyright © 2024 – настоящее время Bitrix24'
+			copyright: 'Copyright © 2024 – настоящее время Битрикс'
 		},
 		
 		outline: { label: 'Содержание страницы' },
@@ -52,7 +52,7 @@ function nav(): DefaultTheme.NavItem[] {
 			items: [
 				{
 					text: 'Changelog',
-					link: `https://github.com/bitrix24/b24style/blob/main/CHANGELOG.md`
+					link: `https://github.com/bitrix-tools/b24style/blob/main/CHANGELOG.md`
 				},
 				... configParams.relative
 			]

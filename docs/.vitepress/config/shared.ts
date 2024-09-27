@@ -13,7 +13,7 @@ if(process.env.NODE_ENV === 'production')
 	customAlias['fonts'] = path.resolve(__dirname, '../../../docs/public/frames/fonts');
 }
 
-const domain: string = 'https://bitrix24.github.io';
+const domain: string = 'https://bitrix-tools.github.io';
 //const baseFolder: string = '/';
 const baseFolder: string = '/b24style/';
 

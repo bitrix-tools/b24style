@@ -183,7 +183,7 @@ module.exports = {
 
 Вы можете управлять шрифтом текста, используя утилиты семейства шрифтов.
 
-<ifr ame data-why style="min-height: 480px">
+<iframe data-why style="min-height: 480px">
 <div class="flex flex-col gap-8">
 	<div>
 		<span class="font-medium text-sm text-gray-500 font-mono mb-3 dark:text-gray-400">font-b24-opensans</span>

@@ -1,13 +1,13 @@
 # Начало работы {#getting-started}
 
-`@bitrix24/b24style` позволяет создавать интерфейсы приложений, похожие на интерфейс Битрикс24, используя [утилитарные классы]([URL]https://tailwindcss.com/docs/utility-first[/URL]) Tailwind CSS.
+`@bitrix24/b24style` позволяет создавать интерфейсы приложений, похожие на интерфейс Битрикс24, используя [утилитарные классы](https://tailwindcss.com/docs/utility-first) Tailwind CSS.
 
 Инструмент реализован как плагин для Tailwind CSS.
 
 ## Предварительные требования {#prerequisites}
 
-- [Node.js]([URL]https://nodejs.org/[/URL]) версии 18 или выше.
-- [Tailwind CSS]([URL]https://tailwindcss.com/[/URL]) версии 3.4.10 или выше.
+- [Node.js](https://nodejs.org/) версии 18 или выше.
+- [Tailwind CSS](https://tailwindcss.com/) версии 3.4.10 или выше.
 
 ## Установка {#installation}
 
@@ -41,7 +41,7 @@ module.exports = {
 :::
 
 ::: tip Важно помнить
-`@bitrix24/b24style` автоматически включает расширение [`@tailwindcss/forms`]([URL]https://github.com/tailwindlabs/tailwindcss-forms[/URL]).
+`@bitrix24/b24style` автоматически включает расширение [`@tailwindcss/forms`](https://github.com/tailwindlabs/tailwindcss-forms).
 :::
 
 На этом установка завершена.
