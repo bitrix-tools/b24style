@@ -3,11 +3,11 @@ layout: home
 
 hero:
   name: "@bitrix24/b24style"
-  text: "Bitrix24 Visual Styles Created with Tailwind CSS"
-  tagline: "Design Your Apps to Match the Bitrix24 Style"
+  text: "Стили Битрикс24 для Tailwind CSS"
+  tagline: "Создавайте приложения в стиле Битрикс24"
   actions:
     - theme: brand
-      text: Quickstart
+      text: Начало работы
       link: /guide/getting-started
     - theme: alt
       text: GitHub
@@ -17,11 +17,11 @@ hero:
     alt: '@bitrix24/b24style'
   
 features:
-  - title: 'Unified Style for All Components'
-    details: LWith the plugin, all components of your application will be styled uniformly, adhering to Bitrix24 standards
-  - title: 'Accelerated Development'
-    details: Use ready-made utility classes for quick styling, allowing you to focus more time on the functionality of your application
-  - title: 'Flexibility and Responsiveness'
-    details: The plugin allows you to easily adapt styles for various devices and screens while maintaining the unified visual language of Bitrix24
+    - title: 'Единый стиль для всех компонентов'
+    details: Все компоненты вашего приложения будут оформлены единообразно, в соответствии со стандартами Битрикс24
+    - title: 'Ускоренная разработка'
+    details: Используйте готовые классы для быстрого оформления, чтобы уделять больше времени функциональности вашего приложения
+    - title: 'Гибкость и адаптивность'
+    details: Плагин позволяет легко адаптировать стили для различных устройств и экранов, сохраняя единый визуальный язык Битрикс24
 ---
 

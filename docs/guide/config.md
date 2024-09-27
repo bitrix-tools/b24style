@@ -1,36 +1,36 @@
-# Plugin Settings {#config}
+# Настройки плагина {#config}
 
-The plugin supports the following settings:
+Плагин поддерживает следующие настройки:
 
 <div class="info-wrapper">
 	<table class="info">
 		<thead>
 			<tr>
-				<th>Parameter</th>
-				<th>Description</th>
-				<th>Default</th>
+				<th>Параметр</th>
+				<th>Описание</th>
+				<th>По умолчанию</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td translate="no" class="variable">logs</td>
 				<td translate="no" class="value">
-					Output logs to the terminal during the build process
+					Выводить логи в терминал во время процесса сборки
 				</td>
-				<td translate="no" class="value">false</td>
+				<td translate="no" class="value">false (нет)</td>
 			</tr>
 			<tr>
 				<td translate="no" class="variable">useLocalFonts</td>
 				<td translate="no" class="value">
-					Use <a href="/guide/working-with-fonts#local-font-family">Local Font Family</a>
+					Использовать <a href="/guide/working-with-fonts#local-font-family">локальные шрифты</a>
 				</td>
-				<td translate="no" class="value">false</td>
+				<td translate="no" class="value">false (нет)</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 
-Example:
+Пример:
 
 ::: code-group
 ```js [tailwind.config.js]
@@ -48,4 +48,5 @@ module.exports = {
     ]
 };
 ```
+
 :::

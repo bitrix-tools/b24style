@@ -1,22 +1,23 @@
 # @bitrix24/b24style
-`@bitrix24/b24style` provides the ability to create application interfaces that closely match the Bitrix24 user interface using Tailwind CSS [utility classes](https://tailwindcss.com/docs/utility-first).
 
-This tool is implemented as a plugin for Tailwind CSS.
+`@bitrix24/b24style` предоставляет возможность создавать интерфейсы приложений, которые максимально соответствуют пользовательскому интерфейсу Битрикс24, используя [утилитарные классы]([URL]https://tailwindcss.com/docs/utility-first[/URL]) Tailwind CSS.
 
-## Prerequisites
+Этот инструмент реализован как плагин для Tailwind CSS.
 
-- [Node.js](https://nodejs.org/) version 18 or higher.
-- [Tailwind CSS](https://tailwindcss.com/) version 3.4.10 or higher.
+## Предварительные требования
 
-## Installation
+- [Node.js]([URL]https://nodejs.org/[/URL]) версии 18 или выше.
+- [Tailwind CSS]([URL]https://tailwindcss.com/[/URL]) версии 3.4.10 или выше.
 
-Install `@bitrix24/style` as a dependency using `npm` by running the following command:
+## Установка
+
+Установите `@bitrix24/style` как зависимость, используя `npm`, выполнив следующую команду:
 
 ```bash
 npm i @bitrix24/b24style
 ```
 
-Add `@bitrix24/b24style` as a plugin inside the `tailwind.config.js` file:
+Добавьте `@bitrix24/b24style` как плагин в файл `tailwind.config.js`:
 
 ```js
 module.exports = {
@@ -31,12 +32,12 @@ module.exports = {
 };
 ```
 
-## Changelog
+## Изменения
 
-Detailed changes for each release are documented in the [CHANGELOG](https://github.com/bitrix24/b24style/blob/main/CHANGELOG.md).
+Подробные изменения для каждого выпуска задокументированы в [CHANGELOG]([URL]https://github.com/bitrix-tools/b24style/blob/main/CHANGELOG.md[/URL]).
 
-## License
+## Лицензия
 
-[MIT](https://github.com/bitrix24/b24style/blob/main/LICENSE)
+[MIT]([URL]https://github.com/bitrix-tools/b24style/blob/main/LICENSE[/URL])
 
-Copyright (c) 2024-present, Bitrix24
+Авторские права (c) 2024-настоящее время, Битрикс

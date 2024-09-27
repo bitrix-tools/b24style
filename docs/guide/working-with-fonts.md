@@ -1,4 +1,5 @@
 ---
+
 ---
 
 <script setup>
@@ -6,21 +7,20 @@ import { inject } from 'vue';
 const presetFonts = inject('presetFonts');
 </script>
 
-# Working with Fonts {#fonts}
+# Работа с шрифтами {#fonts}
 
-To maintain user experience, use system fonts.
+Для соответствия пользовательским ожиданиям используйте системные шрифты.
 
-In rare cases, you may need local fonts.
+В редких случаях могут понадобиться локальные шрифты.
 
-
-## System Font Family {#system-font-family}
+## Системные шрифты {#system-font-family}
 
 <div class="info-wrapper">
 	<table class="info">
 		<thead>
 			<tr>
-				<th>Class</th>
-				<th>Properties</th>
+				<th>Класс</th>
+				<th>Свойства</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -33,13 +33,13 @@ In rare cases, you may need local fonts.
 			<tr>
 				<td translate="no" class="variable">font-b24-primary</td>
 				<td translate="no" class="value">
-					 synonym `b24-system`
+					 синоним `b24-system`
 				</td>
 			</tr>
 			<tr>
 				<td translate="no" class="variable">font-b24-secondary</td>
 				<td translate="no" class="value">
-					 synonym `b24-system`
+					 синоним `b24-system`
 				</td>
 			</tr>
 			<tr>
@@ -101,14 +101,14 @@ In rare cases, you may need local fonts.
 <p class="font-b24-helvetica ...">...</p>
 ```
 
-## Local Font Family {#local-font-family}
+## Локальные шрифты {#local-font-family}
 
 <div class="info-wrapper">
 	<table class="info">
 		<thead>
 			<tr>
-				<th>Class</th>
-				<th>Properties</th>
+				<th>Класс</th>
+				<th>Свойства</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -146,10 +146,11 @@ In rare cases, you may need local fonts.
 	</table>
 </div>
 
-## Adding Local Fonts {#adding-local-fonts}
-To add local fonts:
+## Добавление локальных шрифтов {#adding-local-fonts}
 
-1. Copy the fonts to the project's public folder, for example, `public/fonts`:
+Чтобы добавить локальные шрифты:
+
+1. Скопируйте шрифты в публичную папку проекта, например, `public/fonts`:
 
 ::: code-group
 
@@ -159,7 +160,7 @@ $ npm @bitrix24/ui copy-fonts --dest=public/fonts
 
 :::
 
-2. Set the `useLocalFonts` parameter in the plugin configuration:
+2. Установите параметр `useLocalFonts` в настройках плагина:
 
 ::: code-group
 ```js [tailwind.config.js]
@@ -178,11 +179,11 @@ module.exports = {
 ```
 :::
 
-3. Apply the font in your application.
+3. Примените шрифт в вашем приложении.
 
-You can control the typeface of text using the font family utilities.
+Вы можете управлять шрифтом текста, используя утилиты семейства шрифтов.
 
-<iframe data-why style="min-height: 480px">
+<ifr ame data-why style="min-height: 480px">
 <div class="flex flex-col gap-8">
 	<div>
 		<span class="font-medium text-sm text-gray-500 font-mono mb-3 dark:text-gray-400">font-b24-opensans</span>
@@ -225,4 +226,4 @@ You can control the typeface of text using the font family utilities.
 <p class="font-b24-comforter-brush ...">...</p>
 ```
 
-View [font family](/reference/font-family) reference information
+Просмотрите справочную информацию о [семействе шрифтов](/reference/font-family)
