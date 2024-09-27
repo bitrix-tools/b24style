@@ -71,7 +71,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 				{ text: 'Working with Fonts', link: 'working-with-fonts' },
 			]
 		},
-		{ text: 'Reference', base: '/reference/', link: 'colors' }
+		{ text: 'Справочник', base: '/reference/', link: 'colors' }
 	]
 }
 
